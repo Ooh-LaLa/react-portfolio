@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <>
   <h1>Resume</h1>
-  <a href="resume.pdf" download>Download Resume</a>
+  <a href="resume.pdf" download>Check out my resume</a>
   </>
   )
 }
