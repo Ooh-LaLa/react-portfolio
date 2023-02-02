@@ -2,7 +2,7 @@
 
 
 
-const findProject = () => {
+function findProject = () => {
   return (
   <h1>Projects</h1>
 

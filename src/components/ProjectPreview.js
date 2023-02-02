@@ -1,22 +1,24 @@
-import ProjectPreview from "./ProjectPreview";
 
-const ProjectPreview() {
+
+function ProjectPreview(props) {
   return (
       <div>
       <img 
-        src={props.image} 
-        alt={props.title}
+        src={props.project.image} 
+        alt={props.project.title}
     />
     <section>
         <h3>
-            {props.title}
+            {props.project.title}
         </h3>
         <h3>
-            {props.image}
+            {props.project.image}
         </h3>
+        <Link>
 				<button>
             Learn more
         </button>
+        </Link>
     </section>
 </div>
   )

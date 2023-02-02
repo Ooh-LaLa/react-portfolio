@@ -1,6 +1,6 @@
 import ProjectPreview from "./ProjectPreview";
 
-const  ProjectList() {
+function ProjectList(props) {
   return (
     <>
       <h1>Projects</h1>

@@ -1,12 +1,16 @@
-import React from 'react'
+import ProjectData from './data/projects.js'
 
 
 
-const ProjectDetails = () => {
+function ProjectDetails = () => {
   return (
-    
- <h1>Lorem Ipsum</h1>
- 
+    <>
+ <h1>Hot-Slots</h1>
+<p>Lorem Ipsum</p>
+<img src='../asets/hot-slots.png' alt="hot-slots"/>
+<button>GitHub</button>
+<button>DeployedSite</button>
+   </>
 )}
 
 export default ProjectDetails

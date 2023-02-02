@@ -1,16 +1,12 @@
-import Projects from './data/projects.js';
+import ProjectData from './data/projects.js';
+import ProjectList from '../../components/ProjectList.js';
 
-const Projects() {
+function Project() {
   return (
     <div>
-        <ul>   
-        {props.projects.map(project =>
-          <li key={project.title}>
-          </li>
-        )}
-        </ul>
+    <ProjectList projects={ProjectData}/>
     </div>
   )
 }
 
-export default Projects
+export default Project
