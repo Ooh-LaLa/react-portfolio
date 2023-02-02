@@ -1,4 +1,4 @@
-import ProjectData from './data/projects.js'
+
 
 function hyphenateWords(str) {
   

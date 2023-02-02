@@ -1,5 +1,5 @@
 import hyphenateWords from "./hyphenateWords"
-import ProjectData from './data/projects.js'
+import ProjectData from '../data/projects.js'
 
 
 

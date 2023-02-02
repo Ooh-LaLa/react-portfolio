@@ -13,7 +13,7 @@ function ProjectPreview(props) {
             {props.project.title}
         </h3>
         <Link to={hyphenateWords(props.project.title)}>
-				<button>Learn more</button>
+				<button>Learn More</button>
         </Link>
     </section>
 </div>

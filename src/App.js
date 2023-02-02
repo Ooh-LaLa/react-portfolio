@@ -9,6 +9,7 @@ import NavBar from './components/NavBar.jsx'
 import Projects from './pages/Projects/Projects';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 
+
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
     <Route path="/" element={<Home />}/>
     <Route path="contact" element={<Contact />}/>
     <Route path="/resume" element={<Resume />}/>
-    <Route path="/projects" element={<Projects />}/>
+    <Route path="projects" element={<Projects />}/>
     <Route path="projects/:projectDetails" element={<ProjectDetails />}/>
    </Routes>
    </main>
