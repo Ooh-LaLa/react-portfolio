@@ -7,6 +7,7 @@ import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import NavBar from './components/NavBar.jsx'
 import Projects from './pages/Projects/Projects';
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 
 function App() {
   return (

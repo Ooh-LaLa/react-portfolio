@@ -2,7 +2,7 @@ import ProjectData from './data/projects.js'
 
 
 
-function ProjectDetails = () => {
+function ProjectDetails() {
   return (
     <>
  <h1>Hot-Slots</h1>
